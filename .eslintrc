@@ -1,0 +1,30 @@
+{
+  "plugins": ["prettier"],
+  "extends": [
+    "airbnb",
+    "eslint:recommended",
+    "plugin:prettier/recommended"
+  ],
+  "globals": {
+    "describe": true,
+    "it": true,
+    "expect": true
+  },
+  "settings": {
+    "import/extensions": [".js", ".jsx"],
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx"]
+      }
+    }
+  },
+  "rules": {
+    "no-restricted-syntax": "off",
+    "import/extensions": "off",
+    "import/prefer-default-export": "off",
+    "max-len": ["error", { "code": 80, "tabWidth": 2 }],
+    "no-param-reassign": "off",
+    "prettier/prettier": "error",
+    "global-require": "off"
+  }
+}
