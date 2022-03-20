@@ -1,0 +1,60 @@
+{
+  "name": "my-spotify",
+  "version": "1.0.0",
+  "description": "Personalised Spotify application built with React, Node.js, Express and the Spotify API",
+  "private": true,
+  "type": "module",
+  "main": "server/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/george-swift/my-spotify.git"
+  },
+  "keywords": [],
+  "author": "Ubong George <ubong_george@ymail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/george-swift/my-spotify/issues"
+  },
+  "homepage": "https://github.com/george-swift/my-spotify#readme",
+  "engines": {
+    "node": "17.x"
+  },
+  "scripts": {
+    "server": "node server"
+  },
+  "lint-staged": {
+    "*.{js,css,json,md}": [
+      "prettier --write"
+    ],
+    "*.{js}": [
+      "eslint --fix"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "eslint": "^8.11.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.7",
+    "prettier": "^2.6.0"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "connect-history-api-fallback": "^1.6.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "qs": "^6.10.3"
+  }
+}
