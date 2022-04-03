@@ -20,7 +20,12 @@
     "node": "17.x"
   },
   "scripts": {
-    "server": "node server"
+    "client:install": "cd client && npm install",
+    "client": "cd client && npm start",
+    "server": "node server",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "start": "node server",
+    "heroku-postbuild": "cd client/ && npm install --production && npm run build"
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
