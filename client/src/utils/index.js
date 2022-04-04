@@ -17,7 +17,7 @@ export const EventBus = {
 
 /**
  * Audio Features: *Key* property.
- * For more information the read Spotify Web API reference:
+ * For more information read the Spotify Web API reference:
  * https://developer.spotify.com/documentation/web-api/reference/#/operations/get-several-audio-features
  */
 
