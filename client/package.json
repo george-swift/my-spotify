@@ -78,5 +78,8 @@
     "eslint-plugin-react": "^7.29.4",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.7"
+  },
+  "resolutions": {
+    "react": "^17.0.2"
   }
 }
