@@ -33,6 +33,7 @@ const refreshAccessToken = async () => {
   try {
     const { data } = await axios.get(`/refresh_token?refresh_token=${getLocalRefreshToken()}`);
     setLocalAccessToken(data.access_token);
+    window.location.reload();
   } catch (e) {
     console.error(e);
   }
