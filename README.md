@@ -1,5 +1,7 @@
 # My Spotify
-Insights on personalised Spotify data
+Insights on personalised Spotify data such as top artists, tracks, playlists, recommendations and more!
+
+![](./client//public/track.png)
 ## Live Link
 [Click to see live](https://myspotifystats.herokuapp.com/)
 
