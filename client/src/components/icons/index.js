@@ -1,23 +1,10 @@
-import IconUser from './user';
-import IconGithub from './github';
-import IconExternal from './external';
-import IconSpotify from './spotify';
-import IconLoader from './loader';
-import IconTime from './time';
-import IconMicrophone from './microphone';
-import IconPlaylist from './playlist';
-import IconMusic from './music';
-import IconInfo from './info';
-
-export {
-  IconUser,
-  IconGithub,
-  IconExternal,
-  IconSpotify,
-  IconLoader,
-  IconTime,
-  IconMicrophone,
-  IconPlaylist,
-  IconMusic,
-  IconInfo
-};
+export { default as IconUser } from './user';
+export { default as IconGithub } from './github';
+export { default as IconExternal } from './external';
+export { default as IconSpotify } from './spotify';
+export { default as IconLoader } from './loader';
+export { default as IconTime } from './time';
+export { default as IconMicrophone } from './microphone';
+export { default as IconPlaylist } from './playlist';
+export { default as IconMusic } from './music';
+export { default as IconInfo } from './info';
