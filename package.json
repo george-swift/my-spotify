@@ -58,6 +58,21 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "qs": "^6.10.3"
+    "qs": "^6.10.3",
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "@hookform/resolvers": "^3.3.2",
+    "@t3-oss/env-nextjs": "^0.7.1",
+    "@vercel/analytics": "^1.1.1",
+    "clsx": "^2.0.0",
+    "cva": "npm:class-variance-authority@^0.7.0",
+    "next": "14.0.3",
+    "next-auth": "^4.24.5",
+    "next-themes": "^0.2.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.48.2",
+    "tailwind-merge": "^2.1.0",
+    "zod": "^3.22.4"
   }
 }
