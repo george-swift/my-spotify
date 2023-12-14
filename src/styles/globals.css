@@ -1,0 +1,22 @@
+@tailwind base;
+
+@layer base {
+  :root {
+    /* Black accents */
+    --black-accent-1: #181818;
+    --black-accent-2: #040306;
+
+    /* Green accents */
+    --green-accent-1: #1ed760;
+    --green-accent-2: #1db954;
+
+    /* Gray accents */
+    --gray-accent-1: #b3b3b3;
+    --gray-accent-2: #9b9b9b;
+    --gray-accent-3: #404040;
+    --gray-accent-4: #282828;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
