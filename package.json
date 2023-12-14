@@ -1,77 +1,43 @@
 {
   "name": "my-spotify",
-  "version": "1.0.0",
-  "description": "Personalised Spotify application built with React, Node.js, Express and the Spotify API",
+  "version": "1.1.0",
+  "description": "Web app with personalised Spotify insights built with React, Next.js, and the Spotify API",
   "private": true,
-  "type": "module",
-  "main": "server/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/george-swift/my-spotify.git"
-  },
-  "keywords": [],
-  "author": "Ubong George <ubong_george@ymail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/george-swift/my-spotify/issues"
-  },
-  "homepage": "https://github.com/george-swift/my-spotify#readme",
-  "engines": {
-    "node": "17.x"
+  "author": {
+    "name": "Ubong George",
+    "url": "https://www.ubonggeorge.com"
   },
   "scripts": {
-    "client:install": "cd client && npm install",
-    "client": "cd client && npm start",
-    "server": "node server",
-    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
-    "start": "node server",
-    "heroku-postbuild": "cd client/ && npm install && npm install --production && npm run build"
-  },
-  "lint-staged": {
-    "*.{js,css,json,md}": [
-      "prettier --write"
-    ],
-    "*.{js}": [
-      "eslint --fix"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install"
   },
   "devDependencies": {
-    "concurrently": "^7.0.0",
-    "eslint": "^8.11.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-prettier": "^4.0.0",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.3.7",
-    "prettier": "^2.6.0"
+    "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-tailwindcss": "^3.13.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "postcss": "^8",
+    "prettier": "^3.1.0",
+    "tailwindcss": "^3.3.0"
   },
   "dependencies": {
-    "axios": "^0.26.1",
-    "connect-history-api-fallback": "^1.6.0",
-    "cookie-parser": "^1.4.6",
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.0",
-    "express": "^4.17.3",
-    "qs": "^6.10.3",
-    "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
-    "@hookform/resolvers": "^3.3.2",
     "@t3-oss/env-nextjs": "^0.7.1",
     "@vercel/analytics": "^1.1.1",
     "clsx": "^2.0.0",
     "cva": "npm:class-variance-authority@^0.7.0",
-    "next": "14.0.3",
+    "next": "^14.0.4",
     "next-auth": "^4.24.5",
-    "next-themes": "^0.2.1",
-    "react": "^18",
-    "react-dom": "^18",
-    "react-hook-form": "^7.48.2",
+    "qs": "^6.11.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "tailwind-merge": "^2.1.0",
     "zod": "^3.22.4"
   }
