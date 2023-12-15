@@ -6,7 +6,7 @@ Insights on personalised Spotify data such as top artists, tracks, playlists, re
 
 ## Live Link
 
-[Click to see live](https://my-spotify.vercel.app)
+[Click to see live](https://my-spotify-pro.vercel.app)
 
 ## Built With
 
