@@ -6,7 +6,7 @@ export const metadata = {
 
 export default function LoginPage() {
   return (
-    <main className="mx-auto flex h-screen max-w-7xl flex-col items-center justify-center gap-5 p-20">
+    <main className="mx-auto flex h-screen max-w-7xl flex-col items-center justify-center gap-5 p-6 md:p-20">
       <h1 className="text-[36px] font-extrabold tracking-tight">
         My Spotify Profile
       </h1>
