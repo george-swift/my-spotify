@@ -12,6 +12,7 @@ Insights on personalised Spotify data such as top artists, tracks, playlists, re
 
 - Spotify Web API
 - Next.js
+- NextAuth.js
 - TailwindCSS
 
 ## Getting Started
