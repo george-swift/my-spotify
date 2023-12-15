@@ -50,17 +50,17 @@ export const metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://my-spotify.vercel.app',
+    url: 'https://my-spotify-pro.vercel.app',
     title: 'My Spotify Profile',
     description: 'Web app for visualising personalised Spotify data',
     siteName: 'My Spotify Profile',
-    images: 'https://my-spotify.vercel.app/og.png'
+    images: 'https://my-spotify-pro.vercel.app/og.png'
   },
   twitter: {
     card: 'summary_large_image',
     title: 'My Spotify Profile',
     description: 'Web app for visualising personalised Spotify data',
-    images: `https://my-spotify.vercel.app/og.png`,
+    images: `https://my-spotify-pro.vercel.app/og.png`,
     creator: '@__pragmaticdev'
   },
   icons: {
@@ -68,7 +68,7 @@ export const metadata = {
     shortcut: '/favicon-16x16.png',
     apple: '/apple-touch-icon.png'
   },
-  manifest: `https://my-spotify.vercel.app/site.webmanifest`
+  manifest: `https://my-spotify-pro.vercel.app/site.webmanifest`
 }
 
 export default function RootLayout({ children }) {
