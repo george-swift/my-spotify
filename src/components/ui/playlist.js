@@ -18,7 +18,6 @@ export function Playlist({ id, images, name, tracks }) {
             src={images[0].url}
             alt="Album Art"
             fill
-            className="object-contain"
             sizes="(max-width: 768px) 100vw, 300px"
           />
         ) : (

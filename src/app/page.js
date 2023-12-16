@@ -109,7 +109,7 @@ export default async function Profile() {
                 Show all
               </Link>
             </div>
-            <div className="grid w-full grid-cols-[repeat(auto-fit,_minmax(150px,_165px))] gap-6 overflow-auto md:auto-rows-[0] md:grid-rows-[1fr]">
+            <div className="grid w-full grid-cols-[repeat(auto-fit,_minmax(150px,_165px))] gap-3 overflow-auto md:auto-rows-[0] md:grid-rows-[1fr] md:gap-6">
               {topArtists.items.slice(0, 5).map(artist => (
                 <Artist key={artist.id} artist={artist} />
               ))}
