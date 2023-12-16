@@ -11,7 +11,7 @@ export function Playlist({ id, images, name, tracks }) {
     <div className="flex flex-col text-center">
       <Link
         href={path}
-        className="group relative mb-5 min-h-[232px] w-full shadow-card"
+        className="group relative mb-5 min-h-[200px] w-full shadow-card lg:min-h-[232px]"
       >
         {images.length ? (
           <Image
