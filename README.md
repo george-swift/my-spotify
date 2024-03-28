@@ -33,6 +33,6 @@ To run the app in a local environment,
 
 👤 &nbsp; **Ubong George**
 
-- LinkedIn: [Ubong George](https://www.linkedin.com/in/ubong-itok)
+- LinkedIn: [Ubong George](https://www.linkedin.com/in/ubonggeorge/)
 - Twitter: [@\_\_pragmaticdev](https://twitter.com/__pragmaticdev)
 - GitHub: [@george-swift](https://github.com/george-swift)
